@@ -6,7 +6,7 @@ W klase `uj.java.pwj2019.w02.Spreadsheet` Należy zaimplementować metodę `calc
 
 Arkusz powinien obsługiwać następujące operacje:
 - wartość: jeśli komórka zawiera liczbę, należy ją po prostu zostawić.
-- referencja: jeśli komórka zaczyna się od znaku `$`, zawiera referencję do innej komórki. Referencje są zbudowane podobnie jak w Exelu, np zapis: `$A1` oznacza pierwszą kolumnę (`A`), pierwszy wiersz (`1`). Zapis `$C7` oznacza trzecią kolumnę, pierwszy wiersz.
+- referencja: jeśli komórka zaczyna się od znaku `$`, zawiera referencję do innej komórki. Referencje są zbudowane podobnie jak w Exelu, np zapis: `$A1` oznacza pierwszą kolumnę (`A`), pierwszy wiersz (`1`). Zapis `$C1` oznacza trzecią kolumnę, pierwszy wiersz.
 - formuła: jeśłi komórka zaczyna się od znaku `=`, zawiera formułę. Każda formuła składa się ze znaku `=`, nazwy formuły, oraz dwóch odzielonych przecinkiem parametrów w zwykłych nawiasach. Parametrem formuły może być tylko wartość lub referencja (ale nie inna formuła).
 
 Istniejące formuły:
@@ -31,6 +31,6 @@ Wynik powinien wyglądać:
 ```$xslt
 1,2,3
 4,5,6
-1,1,6
-11,5,0
+1,3,3
+11,2,0
 ```
