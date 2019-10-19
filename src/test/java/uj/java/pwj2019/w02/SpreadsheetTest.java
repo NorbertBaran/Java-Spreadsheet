@@ -66,6 +66,6 @@ class SpreadsheetTest {
     }
 
     static List<String> listFiles() {
-        return List.of("example", "numbers", "two-timer", "walker");
+        return List.of("example", "numbers", "two-timer", "walker", "ops");
     }
 }
